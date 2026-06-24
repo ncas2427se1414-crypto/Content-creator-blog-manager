@@ -82,3 +82,15 @@ body {
   color: white;
   margin-top: 20px;
 }
+
+.search-container {
+  padding: 20px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
