@@ -1,32 +1,62 @@
-# React + TypeScript + Vite
+# WorkshopHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React JS based Workshop Registration & Confirmation Application.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Workshop Registration Form
+- Participant List
+- Duplicate Entry Prevention
+- Confirmation Message
+- Local Storage Support
+- Responsive Design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React JS
+- JavaScript
+- CSS3
+- HTML5
+- Vite
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+src/
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+├── components/
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+│ ├── Navbar.jsx
+
+│ ├── Hero.jsx
+
+│ ├── RegistrationForm.jsx
+
+│ ├── ParticipantList.jsx
+
+│ ├── StatsCards.jsx
+
+│ └── Footer.jsx
+
+│
+
+├── pages/
+
+│ └── Home.jsx
+
+│
+
+├── styles/
+
+│ └── app.css
+
+│
+
+├── App.jsx
+
+└── main.jsx
+
+## Author
+
+PAULINDORATHY
+
+Naan Mudhalvan Internship Project
